@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -50,10 +51,10 @@ public class MainActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-    public static void changeState()
+    public static void changeState(View view)
     {
-        Jett.changeColor(layout);
         Jake.changeText(text);
+        Jett.changeColor(layout);
     }
 
 }

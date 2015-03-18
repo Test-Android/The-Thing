@@ -13,19 +13,16 @@ public class Jake
         {
             text.setTextColor(Color.WHITE);
             text.setText("BLACK");
-            MainActivity.color++;
         }
         else if(MainActivity.color == 1)
         {
             text.setTextColor(Color.BLACK);
             text.setText("RED");
-            MainActivity.color++;
         }
         else if( MainActivity.color == 2)
         {
             text.setTextColor(Color.BLACK);
             text.setText("BLUE");
-            MainActivity.color = 0;
         }
     }
 }
