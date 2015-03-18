@@ -22,8 +22,6 @@ public class MainActivity extends ActionBarActivity
 
         text = (TextView) findViewById(R.id.textView);
         layout = (RelativeLayout) findViewById(R.id.Screen);
-        Jett.changeColor(layout);
-
     }
 
 
@@ -54,7 +52,8 @@ public class MainActivity extends ActionBarActivity
 
     public static void changeState()
     {
-
+        Jett.changeColor(layout);
+        Jake.changeText(text);
     }
 
 }
