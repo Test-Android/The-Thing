@@ -11,21 +11,72 @@
 
 
     <Button
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press Me"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="changeState"/>
+        android:text=""
+        android:id="@+id/button1"
+        android:padding="15dp"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:longClickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="88dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/button2"
+        android:padding="15dp"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:longClickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/button3"
+        android:padding="15dp"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:longClickable="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/button4"
+        android:padding="15dp"
+        android:maxHeight="20dp"
+        android:maxWidth="20dp"
+        android:longClickable="false"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_toEndOf="@+id/button1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="white"
+        android:text="X"
         android:id="@+id/textView"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="103dp"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"/>
 </RelativeLayout>
