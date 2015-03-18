@@ -4,16 +4,26 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity
 {
-    public int color = 0;
+    public static int color = 0;
+    public static TextView text;
+    public static RelativeLayout layout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        text = (TextView) findViewById(R.id.textView);
+        layout = (RelativeLayout) findViewById(R.id.Screen);
+        Jett.changeColor(layout);
+
     }
 
 
@@ -42,8 +52,9 @@ public class MainActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-<<<<<<< HEAD
-=======
+    public static void changeState()
+    {
 
->>>>>>> origin/master
+    }
+
 }
