@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:text="Set Text"
         android:id="@+id/foward"
         android:layout_centerVertical="true"
@@ -44,6 +45,9 @@
         android:layout_centerHorizontal="true" />
 =======
         android:text="W"
+=======
+        android:text=""
+>>>>>>> parent of b65642f... Holy balls changes
 =======
         android:text=""
 >>>>>>> parent of b65642f... Holy balls changes
@@ -99,9 +103,13 @@
         android:layout_alignTop="@+id/button2"
         android:layout_toRightOf="@+id/button1"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_toEndOf="@+id/button1"
         android:onClick="MOVE"/>
 >>>>>>> origin/master
+=======
+        android:layout_toEndOf="@+id/button1"/>
+>>>>>>> parent of b65642f... Holy balls changes
 =======
         android:layout_toEndOf="@+id/button1"/>
 >>>>>>> parent of b65642f... Holy balls changes

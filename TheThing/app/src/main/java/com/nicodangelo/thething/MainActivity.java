@@ -1,11 +1,14 @@
 package com.nicodangelo.thething;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.ArrayAdapter;
 
 import android.graphics.Color;
 import android.app.ActionBar;
 
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 =======
 >>>>>>> parent of b65642f... Holy balls changes
 import android.support.v7.app.ActionBarActivity;
@@ -15,10 +18,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.view.ViewGroup;
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 =======
 >>>>>>> parent of b65642f... Holy balls changes
 import android.widget.RelativeLayout;
@@ -29,6 +35,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     public static TextView text;
@@ -42,6 +49,8 @@ public class MainActivity extends ActionBarActivity
 =======
 >>>>>>> parent of b65642f... Holy balls changes
 
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -67,6 +76,7 @@ public class MainActivity extends ActionBarActivity
         for(int k = 0; k < 3; k++)
             curString[k] = arraySpinner[k];
 
+<<<<<<< HEAD
         arraySpinner[0] = (eText.getText()).toString();
         arraySpinner[1] = curString[0];
         arraySpinner[2] = curString[1];
@@ -81,6 +91,10 @@ public class MainActivity extends ActionBarActivity
 >>>>>>> parent of b65642f... Holy balls changes
 
 
+=======
+
+
+>>>>>>> parent of b65642f... Holy balls changes
     }
     public boolean onKeyUp(int keyCode, KeyEvent event)
     {
