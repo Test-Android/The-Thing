@@ -5,23 +5,22 @@ package com.nicodangelo.thething;
  */
 public class Jett
 {
-    public void changeColor(int color)
+    public void changeColor()
     {
-        if(color == 4)
+        if(MainActivity.color == 0)
         {
-            color = 0;
+            Screen.setBackgroundColor(Color.black);
+            MainActivity.color++;
         }
-        if(color == 0)
+        else if(MainActivity.color == 1)
         {
-            //BLACK
+            Screen.setBackgroundColor(Color.red);
+            MainActivity.color++;
         }
-        else if(color == 1)
+        else if( MainActivity.color == 2)
         {
-           // RED
-        }
-        else if( color == 2)
-        {
-            //BLUE
+            Screen.setBackgroundColor(Color.blue);
+            MainActivity.color = 0;
         }
 
     }
