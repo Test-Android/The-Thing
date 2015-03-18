@@ -1,20 +1,26 @@
 package com.nicodangelo.thething;
 
+<<<<<<< HEAD
 import android.widget.ArrayAdapter;
 
 import android.graphics.Color;
 import android.app.ActionBar;
 
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.view.ViewGroup;
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -23,6 +29,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity
 {
+<<<<<<< HEAD
 
     public static TextView text;
     public static EditText eText;
@@ -32,6 +39,8 @@ public class MainActivity extends ActionBarActivity
     public static TextView x;
     public static RelativeLayout layout;
     public static int x1 = 0;
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 
 
     @Override
@@ -54,6 +63,7 @@ public class MainActivity extends ActionBarActivity
         String lastString = "";
         String[] curString = new String[3];
 
+<<<<<<< HEAD
         for(int k = 0; k < 3; k++)
             curString[k] = arraySpinner[k];
 
@@ -67,15 +77,10 @@ public class MainActivity extends ActionBarActivity
         x = (TextView)findViewById(R.id.textView);
         layout = (RelativeLayout)findViewById(R.id.Screen);
     }
+=======
+>>>>>>> parent of b65642f... Holy balls changes
 
-    public static void MOVE(View view)
-    {
-        x.setLeft(x1 + 20);
-        float y = x.getX();
-        System.out.println(y);
-        layout.refreshDrawableState();
-        //x.setTop(30);
-        x.refreshDrawableState();
+
     }
     public boolean onKeyUp(int keyCode, KeyEvent event)
     {

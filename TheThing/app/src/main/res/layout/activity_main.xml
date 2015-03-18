@@ -14,6 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:text="Set Text"
         android:id="@+id/foward"
         android:layout_centerVertical="true"
@@ -43,6 +44,9 @@
         android:layout_centerHorizontal="true" />
 =======
         android:text="W"
+=======
+        android:text=""
+>>>>>>> parent of b65642f... Holy balls changes
         android:id="@+id/button1"
         android:padding="15dp"
         android:maxHeight="20dp"
@@ -59,6 +63,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text=""
         android:id="@+id/button2"
         android:padding="15dp"
         android:maxHeight="20dp"
@@ -67,13 +72,12 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="44dp"
-        android:text="A"/>
+        android:layout_marginBottom="44dp"/>
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="S"
+        android:text=""
         android:id="@+id/button3"
         android:padding="15dp"
         android:maxHeight="20dp"
@@ -86,7 +90,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="D"
+        android:text=""
         android:id="@+id/button4"
         android:padding="15dp"
         android:maxHeight="20dp"
@@ -94,9 +98,13 @@
         android:longClickable="false"
         android:layout_alignTop="@+id/button2"
         android:layout_toRightOf="@+id/button1"
+<<<<<<< HEAD
         android:layout_toEndOf="@+id/button1"
         android:onClick="MOVE"/>
 >>>>>>> origin/master
+=======
+        android:layout_toEndOf="@+id/button1"/>
+>>>>>>> parent of b65642f... Holy balls changes
 
     <Spinner
         android:layout_width="wrap_content"
@@ -114,7 +122,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft= "0dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="0dp"/>
 >>>>>>> origin/master
 </RelativeLayout>
