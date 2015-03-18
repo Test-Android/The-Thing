@@ -11,9 +11,37 @@
 
 
     <Button
-        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:text="Set Text"
+        android:id="@+id/foward"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="cText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Default Text"
+        android:id="@+id/textView"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:editable="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:minWidth="180dp"
+        android:maxWidth="220dp"
+        android:visibility="visible"
+        android:layout_above="@+id/foward"
+        android:layout_centerHorizontal="true" />
+=======
         android:text="W"
         android:id="@+id/button1"
         android:padding="15dp"
@@ -68,10 +96,18 @@
         android:layout_toRightOf="@+id/button1"
         android:layout_toEndOf="@+id/button1"
         android:onClick="MOVE"/>
+>>>>>>> origin/master
 
-    <TextView
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:id="@+id/spinner"
+        android:layout_below="@+id/foward"
+        android:layout_toLeftOf="@+id/foward"
+        android:layout_toStartOf="@+id/foward" />
+
+=======
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="X"
         android:id="@+id/textView"
@@ -80,4 +116,5 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft= "0dp"
         android:layout_marginTop="0dp"/>
+>>>>>>> origin/master
 </RelativeLayout>
