@@ -8,7 +8,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity
 {
-
+    public int color = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -41,4 +41,5 @@ public class MainActivity extends ActionBarActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 }
