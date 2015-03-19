@@ -25,7 +25,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity
-
+{
     public static TextView text;
     public static EditText eText;
     public static String[] arraySpinner;
